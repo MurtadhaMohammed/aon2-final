@@ -1,0 +1,61 @@
+
+.header .content{
+    height: 78px;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .content .logo{
+    width: 160px;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.notificationBtn{
+    height: 48px;
+    width: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px 0px #3c97af14;
+    position: relative;
+}
+
+.notificationBtn .dot{
+    height: 10px;
+    width: 10px;
+    background-color: #5A9BD8;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    
+}
+
+.header .content ul{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    list-style-type: none;
+    color: #999999;
+    
+}
+.header .content ul li{
+    padding-bottom: 6px;
+}
+
+.header .content ul .active{
+    color: #000;
+    border-bottom: 2px solid #3C97AF;
+   
+}
+
+
+
+
